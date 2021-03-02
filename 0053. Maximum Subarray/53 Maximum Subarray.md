@@ -1,4 +1,3 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 # 53. Maximum Subarray
 
 Date: 02/02/2021
@@ -83,7 +82,7 @@ public:
 
 La ricorrenza che ne deriva è la ricorrenza del merge-sort. Ogni volta l'algoritmo genera due chiamate ricorsive ciascuna delle quali di size dimezzato e la fase divide e combina impiegano complessivamente un tempo $\Theta(n)$ derivante dalla complessità di **FIND-MAX-CROSSING-SUBARRAY.** 
 
-$T(n)=2T\Big(\frac{n}{2}\Big)+\Theta(n)$
+$$T(n)=2T\Big(\frac{n}{2}\Big)+\Theta(n)$$
 
 Risolta con il secondo caso del master theoreme:
 
