@@ -26,8 +26,10 @@ public:
 
 int main() {
     srand((unsigned)time(NULL));
-    int n = 6;
+    int n;
     Solution s;
+    cout << "n: ";
+    cin >> n;
     cout << "In quanti modi possibili posso salire " << n << " gradini? " << s.climbStairs(n) << endl;
     return 0;
 }
